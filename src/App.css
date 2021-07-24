@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  /* width: 100vw; */
+}
+
+.button {
+  border: none;
+  border-radius: 4px;
+  background-color: #528ff0;
+  padding: 8px;
+  color: #fff;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.header {
+  line-height: 50px;
+  background-color: #528ff0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Open Sans",Arial,sans-serif;
+} 
+
+.Content {
+  margin: 20px auto;
+}
+
+.button-div{
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 20px;
+}
+
+.table{
+  width: 70%;
+  margin: auto;
+}
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+}
+.pie {
+  height: 350px;
+  width: 350px;
+}
+
+
+ @media screen and (max-width: 768px) {
+   .pie {
+    width: 100%;
+    margin-top: 40px;
+   }
+   .header {
+
+   }
+ }
+
+ @media screen and (min-width: 768px) {
+  .pie {
+   width: 450px;
+
+  }
+}
